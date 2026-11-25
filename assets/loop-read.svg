@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="shelly loop-read" viewBox="0 0 200 200" width="400" height="400"><style>.shelly{overflow:visible}
+.shelly .crab{transform-origin:100px 180px}
+.shelly .shell{transform-origin:100px 162px}
+.shelly .shadow{transform-origin:100px 182px}
+.shelly .clawL{--d:1;transform-origin:52px 160px}
+.shelly .clawR{--d:-1;transform-origin:148px 160px}
+.shelly .eyeL{--d:1;transform-origin:88px 124px}
+.shelly .eyeR{--d:-1;transform-origin:112px 124px}
+.shelly .eyeL .ball{transform-origin:82px 92px}
+.shelly .eyeR .ball{transform-origin:118px 92px}
+.shelly .spark,.shelly .star,.shelly .z,.shelly .lvtext{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){.shelly *{animation:none!important}}
+.loop-read .crab{animation:sh-nod 4s ease-in-out infinite}
+@keyframes sh-nod{0%,100%{transform:rotate(-1.5deg)}50%{transform:rotate(1.5deg)}}
+.loop-read .pupil{animation:sh-scan 4s infinite}
+@keyframes sh-scan{0%{transform:translate(-3px,2px)}20%{transform:translate(0,2px)}40%{transform:translate(3px,2px)}45%{transform:translate(-3px,3px)}65%{transform:translate(0,3px)}84%,90%{transform:translate(3px,3px)}100%{transform:translate(-3px,2px)}}
+.loop-read .flip{transform-origin:100px 170px;animation:sh-flip 4s ease-in-out infinite}
+@keyframes sh-flip{0%{transform:scaleX(1);opacity:0}6%,84%{transform:scaleX(1);opacity:1}94%{transform:scaleX(-1);opacity:1}100%{transform:scaleX(-1);opacity:0}}</style><ellipse class="shadow" cx="100" cy="182" rx="80" ry="7" fill="#000" opacity=".08"/>
+ 
+ <g class="crab"><g transform="translate(100 180) scale(0.84) translate(-100 -180)"><g class="legs" stroke="#E8906A" stroke-width="5" stroke-linecap="round" fill="none"><path d="M64 160 l-12 15"/><path d="M78 163 l-6 14"/><path d="M136 160 l12 15"/><path d="M122 163 l6 14"/></g><g class="body"><path class="inside" d="M100 80 L58 174 L142 174Z" fill="#FFF3DC"/><ellipse cx="100" cy="142" rx="40" ry="26" fill="#F4A27A"/><ellipse cx="96" cy="127" rx="12" ry="4.5" fill="#fff" opacity=".2"/></g><g class="face"><g><circle cx="80" cy="148" r="5.5" fill="#E85D4A" opacity=".45"/><circle cx="120" cy="148" r="5.5" fill="#E85D4A" opacity=".45"/></g><path d="M92 152 Q100 159 108 152" stroke="#3a2e2a" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>
+  <g class="shell "><g transform="matrix(1 0 0 1.1 0 -6.5)">
+   <path d="M100 50 L34 162 L62 162 L100 84Z M100 50 L166 162 L138 162 L100 84Z" fill="#FFF3DC" stroke="#E9D8B8" stroke-width="1.2" stroke-linejoin="round"/><path d="M100 61 L43 162 M100 72 L52 162 M100 61 L157 162 M100 72 L148 162" stroke="#E9D8B8" stroke-width="1.4"/>
+   <path d="M100 35 L21 162 L37 162 L100 51 L163 162 L179 162 Z" style="fill:var(--shell,#E85D4A);stroke:var(--shellD,#C9473A)" stroke-width="2.5" stroke-linejoin="round"/><path d="M100 43 L29 162 M100 43 L171 162" style="stroke:var(--shellD,#C9473A)" stroke-width="1.4" stroke-opacity=".7"/>
+   <path d="M95 46 L35 152" stroke="#fff" stroke-opacity=".3" stroke-width="3" stroke-linecap="round"/>
+   <path d="M88 45 Q100 27 112 45" style="stroke:var(--shellD,#C9473A)" stroke-width="7" fill="none" stroke-linecap="round"/></g>
+   <path d="M150 172 Q153 178 150 182" style="stroke:var(--rib,#F7C948)" stroke-width="5" fill="none"/>
+   <path d="M145.5 180 l0 9 l4.5 -4 l4.5 4 l0 -9z" style="fill:var(--rib,#F7C948)"/>
+  </g>
+  
+  <g class="eye eyeL"><path d="M88 124 Q84 110 82 97" stroke="#F4A27A" stroke-width="5" fill="none" stroke-linecap="round"/><g class="ball"><g transform="translate(82 92) scale(1) translate(-82 -92)"><circle cx="82" cy="92" r="10" fill="#fff" stroke="#3a2e2a" stroke-width="1.5"/><g class="pupil"><circle cx="83" cy="93" r="5" fill="#3a2e2a"/><circle cx="85" cy="91" r="1.7" fill="#fff"/></g></g></g></g><g class="eye eyeR"><path d="M112 124 Q116 110 118 97" stroke="#F4A27A" stroke-width="5" fill="none" stroke-linecap="round"/><g class="ball"><g transform="translate(118 92) scale(1) translate(-118 -92)"><circle cx="118" cy="92" r="10" fill="#fff" stroke="#3a2e2a" stroke-width="1.5"/><g class="pupil"><circle cx="117" cy="93" r="5" fill="#3a2e2a"/><circle cx="119" cy="91" r="1.7" fill="#fff"/></g></g></g></g>
+  <g class="prop">
+  <path d="M100 166 Q84 160 66 164 V186 Q84 182 100 188 Q116 182 134 186 V164 Q116 160 100 166Z" fill="#E85D4A"/>
+  <path d="M100 165 Q86 158 70 162 V182 Q86 178 100 184Z" fill="#fff" stroke="#E9D8B8" stroke-width="1"/>
+  <path d="M100 165 Q114 158 130 162 V182 Q114 178 100 184Z" fill="#fff" stroke="#E9D8B8" stroke-width="1"/>
+  <path d="M75 168 h19 M75 172 h19 M75 176 h15 M106 168 h19 M106 172 h19 M106 176 h12" stroke="#E9D8B8" stroke-width="1.6"/>
+  <path class="flip" d="M100 165 Q114 158 130 162 V182 Q114 178 100 184Z" fill="#FFFDF6" stroke="#E9D8B8" stroke-width="1"/>
+</g>
+  <g class="claw clawL"><path d="M70 160 L60 172 L62 174" stroke="#F4A27A" stroke-width="6.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="60" cy="172" r="3.6" fill="#E8906A"/><path transform="translate(64 166) scale(0.9 0.9)" d="M4 12 C-10 14 -15 -2 -7 -11 C-3 -4 1 -2 5 -3 C3 -8 5 -12 9 -15 C17 -6 15 10 4 12Z" fill="#F08A62"/></g>
+  <g class="claw clawR"><path d="M130 160 L140 172 L138 174" stroke="#F4A27A" stroke-width="6.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="140" cy="172" r="3.6" fill="#E8906A"/><path transform="translate(136 166) scale(-0.9 0.9)" d="M4 12 C-10 14 -15 -2 -7 -11 C-3 -4 1 -2 5 -3 C3 -8 5 -12 9 -15 C17 -6 15 10 4 12Z" fill="#F08A62"/></g></g></g>
+ </svg>
